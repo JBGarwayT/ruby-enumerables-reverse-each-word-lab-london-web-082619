@@ -1,5 +1,5 @@
-def reverse_each_word (string)
+def reverse_each_word (element)
   array = []
-  array = string.split (" ")
+  array = element.split (" ")
   array.map {|words| words.reverse}
 end
