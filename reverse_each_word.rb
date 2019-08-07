@@ -2,6 +2,6 @@ def reverse_each_word (element)
   array = []
   reverse = []
   array = element.split (" ")
-  array.each reverse <<  {|words| words.reverse}
+  array.each {|words| reverse << words.reverse}
   reverse.join (" ")
 end
